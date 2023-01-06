@@ -52,7 +52,7 @@ slog-global = { version = "0.1", git = "https://github.com/breeswish/slog-global
 thiserror = "1.0"
 tikv_alloc = { path = "../tikv_alloc" }
 tikv_util = { path = "../tikv_util", default-features = false }
-tokio = { version = "1.5", features = ["time", "rt"] }
+tokio = { version = "1.16", features = ["time", "rt"] }
 
 [dev-dependencies]
 matches = "0.1.8"

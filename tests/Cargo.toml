@@ -181,7 +181,7 @@ test_raftstore = { path = "../components/test_raftstore", default-features = fal
 test_pd = { path = "../components/test_pd", default-features = false }
 byteorder = "1.2"
 serde_json = "1.0"
-tokio = { version = "1.5", features = ["rt-multi-thread"] }
+tokio = { version = "1.16", features = ["rt-multi-thread"] }
 concurrency_manager = { path = "../components/concurrency_manager", default-features = false }
 file_system = { path = "../components/file_system" }
 resource_metering = { path = "../components/resource_metering" }
