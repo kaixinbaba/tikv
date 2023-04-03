@@ -125,7 +125,7 @@ toml = "0.5"
 txn_types = { path = "../../components/txn_types", default-features = false }
 
 [build-dependencies]
-time = "0.1"
+time = "0.2"
 
 [target.'cfg(unix)'.dependencies]
 signal = "0.6"

@@ -18,7 +18,7 @@ prost-codec = [
 
 [dependencies]
 anyhow = "1.0"
-time = "0.1"
+time = "0.2"
 derive_more = "0.99.3"
 error_code = { path = "../error_code", default-features = false }
 tikv_util = { path = "../tikv_util", default-features = false }

@@ -216,7 +216,7 @@ tikv_kv = { path = "components/tikv_kv", default-features = false }
 tikv_util = { path = "components/tikv_util", default-features = false }
 collections = { path = "components/collections" }
 coprocessor_plugin_api = { path = "components/coprocessor_plugin_api" }
-time = "0.1"
+time = "0.2"
 tipb = { git = "https://github.com/pingcap/tipb.git", default-features = false }
 tokio = { version = "1.5", features = ["full"] }
 tokio-timer = "0.2"

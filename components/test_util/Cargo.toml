@@ -36,4 +36,4 @@ slog-global = { version = "0.1", git = "https://github.com/breeswish/slog-global
 tempfile = "3.0"
 tikv_util = { path = "../tikv_util", default-features = false }
 collections = { path = "../collections" }
-time = "0.1"
+time = "0.2"
