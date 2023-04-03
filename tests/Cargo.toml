@@ -152,7 +152,7 @@ tipb = { git = "https://github.com/pingcap/tipb.git", default-features = false }
 toml = "0.5"
 txn_types = { path = "../components/txn_types", default-features = false }
 uuid = { version = "0.8.1", features = ["serde", "v4"] }
-time = "0.1"
+time = "0.2"
 
 [dev-dependencies]
 # See https://bheisler.github.io/criterion.rs/book/user_guide/known_limitations.html for the usage
